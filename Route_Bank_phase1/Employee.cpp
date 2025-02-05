@@ -22,20 +22,17 @@ void Employee::display() const {
 }
 
 void Employee::addClient(Client& client) {
-    cout << "Added client: " << client.getName() << endl;
+    
 }
 
 Client* Employee::searchClient(int id) {
-    // Placeholder function, implement search logic as required
-    return nullptr;
+    
 }
 
 void Employee::listClient() {
-    // Placeholder function, implement listing logic as required
-    cout << "Listing all clients (currently empty)." << endl;
+   
 }
 
 void Employee::editClient(int id, const string& name, const string& password, double balance) {
-    // Placeholder function, implement editing logic as required
-    cout << "Editing client with ID " << id << endl;
+    
 }
